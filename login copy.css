@@ -1,0 +1,72 @@
+@font-face {
+    font-family: ziti;
+    src: url(fonts/传奇书法字体.ttf);
+}
+input.userAndPassword{
+    background: none;
+    height: 65px;
+    width: 300px;
+    border-radius: 50px;
+    /* border-color: black; */
+    font-family:'Courier New', Courier, monospace;
+    font-size:30px;
+    /* 点击以后呈现的样式：border-style: solid; */
+}
+button.yesAndNo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background: none;
+    height: 70px;
+    width: 200px;
+    border-radius: 50px;
+    font-size:30px;
+    /* border-width: 8px; */
+    font-family: ziti;
+    font-size:60px;
+    /* border-left: 4px solid rgb(147,137,168);
+    border-top: 4px solid rgb(147,137,168);
+    border-right: 4px solid rgb(218,212,233);
+    border-bottom: 4px solid rgb(218,212,233); */
+}
+div.loginScreen{
+    height: 589px;
+    width: 763px;
+    background-image: url(img/登录框.png);
+    background-size: 100% 100%;
+    font-family: ziti;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.logincard{
+    height: 355px;
+    width: 613px;
+    background-color: rgb(215, 188, 215,0.5);
+    background-size: 100% 100%;
+    border-radius: 40px;
+    position: relative;
+    top: 80px;
+}
+div.userAndPassword{
+    margin: 35px;
+    height: 65px;
+    width: 600px;
+    font-size:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 25px;
+}
+body.loginAndRegister{
+    height: 100vh;
+    background-image: url(img/背景_晶格化.png);
+    background-size: 100% 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
